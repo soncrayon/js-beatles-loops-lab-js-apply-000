@@ -15,16 +15,3 @@ function johnLennonFacts (facts) {
   }
   return factsArray; 
 }
-
-
-function iLoveTheBeatles (n) {
-  let loveArray = [];
-  let text = "I love the Beatles!";
-  let i = 0; 
-  do {
-    loveArray.push(text); 
-    n++; 
-  }
-  while (i < 15);
-  return loveArray; 
-}
