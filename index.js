@@ -1,8 +1,9 @@
 // add solution here
-let emptyArray = [];
-let factsArray = []; 
+
+
 
 function theBeatlesPlay (musicians, instruments) {
+  let emptyArray = [];
   for (let i = 0; i < musicians.length; i++) {
     emptyArray.push(`${musicians[i]} plays ${instruments[i]}`);
   }
@@ -10,6 +11,7 @@ function theBeatlesPlay (musicians, instruments) {
 }
 
 function johnLennonFacts (facts) {
+  let factsArray = []; 
   for (let i = 0; i < facts.length; i++) {
     factsArray.push(facts[i] + "!!!"); 
   }
